@@ -45,7 +45,6 @@ function App() {
         <Route path='/order' component={adminOrder} />
         {/* Admin Routes */}
         <Route path='*' component={ErrorPage} />
-        gfghjkl
       </Switch>
     </>
   )
