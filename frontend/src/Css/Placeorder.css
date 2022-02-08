@@ -1,0 +1,42 @@
+.row {
+    margin-top: 5rem !important;
+}
+
+.order-details {
+    background: #a1e9df61;
+    box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.2);
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.order-details:hover {
+    box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.4);
+}
+
+.order-item {
+    margin-bottom: 0.7rem;
+}
+
+.process-order {
+    margin-left: -5rem;
+    width: 20rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background: #a1e9df61;
+    box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.process-order span {
+    margin-left: 10rem;
+}
+
+.place-order {
+    width: 18rem;
+    font-weight: 500;
+}
+
+.process-order:hover {
+    box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,26 @@
+form {
+    width: 30rem;
+    margin: auto;
+    margin-top: 5rem;
+    font-size: 1.2rem;
+    background: #f2f2f2;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 3rem;
+}
+
+form .input {
+    display: inline;
+}
+
+form .label {
+    display: inline;
+    margin-left: 1rem;
+}
+
+.submitBtn {
+    background: #f3ae39;
+    width: 385px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}

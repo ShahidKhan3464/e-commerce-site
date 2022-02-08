@@ -1,0 +1,17 @@
+.CheckoutSteps {
+    display: flex;
+    margin: 5rem;
+}
+
+.CheckoutSteps>div {
+    border-top: 0.3rem solid #c0c0c0;
+    color: #c0c0c0;
+    flex: 1;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.CheckoutSteps>div.active {
+    border-top-color: #f08000;
+    color: #f08000;
+}

@@ -1,0 +1,15 @@
+.LoadingBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.LoadingBox .fa-pulse {
+    font-size: 4rem;
+}
+
+.LoadingBox h2 {
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+}

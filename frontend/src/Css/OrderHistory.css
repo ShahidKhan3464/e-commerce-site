@@ -1,0 +1,15 @@
+.table tbody tr:nth-of-type(odd) {
+    background: #f4f4f4;
+}
+
+.table td, .table th {
+    text-align: left;
+    border: 0.1rem solid #e4e4e4;
+    padding: 0.5rem;
+}
+
+.table button {
+    border-radius: 5px;
+    margin: 0 0.2rem;
+    font-size: 1.2rem;
+}

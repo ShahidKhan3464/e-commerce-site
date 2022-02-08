@@ -1,0 +1,48 @@
+.product {
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+
+.card {
+    width: 18.5rem;
+    box-shadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+    box-shadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+    height: 17.5rem;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title h5 {
+    font-size: 1.5rem;
+}
+
+.card-title h3 {
+    position: relative;
+    bottom: 2px;
+    left: 10px;
+}
+
+.rating {
+    margin-bottom: 0.5rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #a1b4ea;
+    width: 5rem;
+    border-radius: 0.5rem;
+}

@@ -1,0 +1,21 @@
+.row {
+    margin-top: 5rem;
+}
+
+.right .my-img {
+    width: 18rem;
+    margin: 115px 110px;
+    border-radius: 145px;
+    filter: drop-shadow(0 0.5rem 1rem rgba(0, 0, 0, 0.3));
+}
+
+.h1 {
+    font-size: 3rem;
+    margin: 10rem 0 4rem 0;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+.text_clr {
+    color: #007bff;
+}

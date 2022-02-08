@@ -1,0 +1,38 @@
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem !important;
+}
+
+.details {
+    position: relative;
+    right: 5rem;
+    width: 25rem;
+}
+
+.details span {
+    margin-left: 8.3rem;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.details select {
+    margin-left: 6rem;
+}
+
+.details input {
+    width: 5rem;
+    margin-left: 6.8rem;
+}
+
+.cartBtn {
+    background: #f3ae39;
+    width: 9rem;
+    border-radius: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+.cartBtn:hover {
+    border: 0.1rem solid black;
+}

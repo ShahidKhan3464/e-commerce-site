@@ -1,0 +1,6 @@
+.Products {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
