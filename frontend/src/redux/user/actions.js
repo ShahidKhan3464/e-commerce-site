@@ -13,7 +13,7 @@ export const userSignIn = (data) => (dispatch) => {
 export const userDetails = () => async (dispatch) => {
     dispatch({ type: USER_DETAILS_REQUEST })
     try {
-        const { data } = await axios.get('https://storebackend.herokuapp.com/api/user/profile', {
+        const { data } = await axios.get('http://localhost:3001/api/user/profile', {
             headers: {
                 token: localStorage.getItem('token')
             }
@@ -31,7 +31,7 @@ export const userDetails = () => async (dispatch) => {
 export const updateUserProfile = (user) => async (dispatch) => {
     dispatch({ type: USER_UPDATE_REQUEST })
     try {
-        const { data } = await axios.put('https://storebackend.herokuapp.com/api/user/profile', user, {
+        const { data } = await axios.put('http://localhost:3001/api/user/profile', user, {
             headers: {
                 token: localStorage.getItem('token')
             }
