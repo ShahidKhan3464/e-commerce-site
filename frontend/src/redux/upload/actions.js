@@ -4,7 +4,7 @@ import { ADD_PRODUCT_FAIL, ADD_PRODUCT_REQUEST, ADD_PRODUCT_SUCCESS } from './ty
 export const addProduct = (product) => async (dispatch) => {
     dispatch({ type: ADD_PRODUCT_REQUEST })
     try {
-        const { data } = await axios.post('http://localhost:3001/api/upload/product', product, {
+        const { data } = await axios.post('https://storebackend.herokuapp.com/api/upload/product', product, {
             headers: {
                 token: localStorage.getItem('token')
             }

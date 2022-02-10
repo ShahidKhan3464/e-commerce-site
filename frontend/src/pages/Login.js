@@ -22,7 +22,7 @@ function Login() {
         e.preventDefault()
         try {
             setLoading(true)
-            const { data } = await axios.post('http://localhost:3001/api/user/login', {
+            const { data } = await axios.post('https://storebackend.herokuapp.com/api/user/login', {
                 email: email,
                 password: password
             })

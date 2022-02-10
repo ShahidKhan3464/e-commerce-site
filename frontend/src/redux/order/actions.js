@@ -5,7 +5,7 @@ import { CART_EMPTY } from '..//cart/types'
 export const createdOrder = (order) => async (dispatch) => {
     dispatch({ type: ORDER_CREATE_REQUEST })
     try {
-        const { data } = await axios.post('http://localhost:3001/api/order', order, {
+        const { data } = await axios.post('https://storebackend.herokuapp.com/api/order', order, {
             headers: {
                 token: localStorage.getItem('token')
             }
@@ -25,7 +25,7 @@ export const createdOrder = (order) => async (dispatch) => {
 export const detailsOrder = (orderId) => async (dispatch) => {
     dispatch({ type: ORDER_DETAILS_REQUEST })
     try {
-        const { data } = await axios.get(`http://localhost:3001/api/order/${orderId}`, {
+        const { data } = await axios.get(`https://storebackend.herokuapp.com/api/order/${orderId}`, {
             headers: {
                 token: localStorage.getItem('token')
             }
@@ -43,7 +43,7 @@ export const detailsOrder = (orderId) => async (dispatch) => {
 export const listOrderMine = () => async (dispatch) => {
     dispatch({ type: MY_ORDER_LIST_REQUEST })
     try {
-        const { data } = await axios.get('http://localhost:3001/api/order/mine', {
+        const { data } = await axios.get('https://storebackend.herokuapp.com/api/order/mine', {
             headers: {
                 token: localStorage.getItem('token')
             }
