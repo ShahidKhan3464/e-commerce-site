@@ -24,7 +24,7 @@ function Register() {
         e.preventDefault()
         setLoading(true)
         try {
-            const { data } = await axios.post("http://localhost:3001/api/user/register", {
+            const { data } = await axios.post("https://storebackend.herokuapp.com/api/user/register", {
                 name: fullName,
                 email: email,
                 phone: phone,
